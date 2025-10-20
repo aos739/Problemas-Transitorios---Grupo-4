@@ -1,0 +1,15 @@
+sim("Problema_simulacion.slx")
+
+figure(1)
+plot(Intensidad_L,'LineWidth', 2)
+title('Evolución temporal de la corriente en la bobina')
+xlabel('Tiempo (s)')
+ylabel('Amplitud (A)')
+xlim([0,0.002])
+
+figure(2)
+plot(Voltaje_C,'LineWidth', 2)
+title('Evolución temporal del voltaje del condensador')
+xlabel('Tiempo (s)')
+ylabel('Amplitud (V)')
+xlim([0,0.002])

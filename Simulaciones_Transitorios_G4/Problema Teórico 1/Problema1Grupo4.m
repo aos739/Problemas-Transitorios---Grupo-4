@@ -1,0 +1,6 @@
+sim("Problema_teorico_1.slx")
+plot(Intensidad_L,'LineWidth', 2)
+title('Evolución temporal de la corriente de la inductancia')
+xlabel('Tiempo (s)')
+ylabel('Amplitud (A)')
+xlim([0,0.0018])
